@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@1;300;400;600;700;800&display=swap");
+
+body {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.click {
+  text-align: center;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+}
+.last {
+  width: 100%;
+}
+.placeHolder {
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.linkSpan {
+  color: #2ec4b6;
+  cursor: pointer;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.bodyLeft > h1 {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.bodyLeft > p {
+  color: #737373;
+  font-family: "Sofia Sans", sans-serif;
+  width: 350px;
+}
+.bodyRight > form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 6px;
+  width: 600px;
+}
+.inputHolder {
+  margin-bottom: 20px;
+  width: 45%;
+}
+.inputHolder > input {
+  border-radius: 2px;
+  border: 1px solid #f0f0f0;
+  outline: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  width: 95%;
+  padding-left: 10px;
+  margin-top: 8px;
+}
+.bodyRight > form > div > select {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #f0f0f0;
+  outline: none;
+  padding: 10px;
+  color: #737373;
+  font-family: "Sofia Sans", sans-serif;
+  margin-top: 8px;
+}
+.bodyRight > form > div > input:focus {
+  border: 2px solid #2ec4b6;
+}
+.bodyRight > form > div > select:focus {
+  border: 2px solid #2ec4b6;
+}
+.bodyRight > form > button {
+  background-color: #2ec4b6;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: var(--basic-100, #fff);
+  text-align: center;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+.bodyRight > form > section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.bodyRight > form > section > select:focus {
+  border: 2px solid #2ec4b6;
+}
+.bodyRight > form > section > select {
+  width: 100%;
+
+  border-radius: 2px;
+  border: 1px solid #f0f0f0;
+  outline: none;
+  padding: 10px;
+  color: #737373;
+  font-family: "Sofia Sans", sans-serif;
+  margin-top: 8px;
+}
+#password {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+
+  border-radius: 2px;
+  border: 1px solid #f0f0f0;
+  outline: none;
+
+  margin-top: 8px;
+}
+#password:focus {
+  border: 2px solid #2ec4b6;
+}
+.bodyRight {
+  background: #fff;
+  box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.inputHolder {
+  width: 48%;
+}
+label {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  main {
+    flex-direction: column;
+  }
+  .bodyRight {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+  }
+  .bodyRight > form {
+    flex-direction: column;
+    width: 100%;
+  }
+  .inputHolder {
+    width: 100%;
+  }
+  body {
+    background-color: #f7fdfc;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+  }
+
+  .inputHolder > input {
+    width: 97%;
+  }
+
+  /* CSS */
+}
